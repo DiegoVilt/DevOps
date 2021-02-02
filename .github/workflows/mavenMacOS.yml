@@ -5,14 +5,14 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
 
-    runs-on: macOS-latest
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
